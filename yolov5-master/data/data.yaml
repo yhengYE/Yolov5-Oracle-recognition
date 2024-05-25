@@ -1,0 +1,7 @@
+# dataset.yaml
+path: train_dataset  # 数据集的根目录，可以是绝对路径或相对于train.py的路径
+train: images/train  # 训练集图片相对于path的路径
+val: images/val  # 验证集图片相对于path的路径
+test: images/test
+nc: 1  # 类别数
+names: ['0']  # 类别名称列表
